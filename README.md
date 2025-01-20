@@ -17,7 +17,7 @@ Download the .py file from this GitHub repository to your local machine, and run
 3. Once you add a task, you'll get a confirmation message, the new item will be added to the end of the list, and a traditional ordered list will display above the program menu. 
 
 ### Deleting a Task
-The functionality to delete tasks was the most challenging part of the assignment to develop. 
+The functionality to delete tasks was the most challenging part of the assignment to develop. The most challenging part was identifying the task that the user needs to delete and properly handling the deletion of the task. I used the pop function to delete the tasks rather than using remove or the del keyword. The choice was made so that the removed value was returned in the deleted_task variable. 
 
 ### Error Handling
 The only error handling in the assignment that used try, except, else, and finally was in the delete selection in the program. The remaining attempts at error handling were through conditional statements that caught the possible exceptions under the else statement and print error statements. The while loop ensures the program keeps running until the user desires to quit. 
